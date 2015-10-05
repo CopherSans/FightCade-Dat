@@ -2126,13 +2126,13 @@ game (
 )
 
 game (
-	name jojobane
+	name jojoban
 	cloneof jojoba
 	romof jojoba
-	description "JoJo's Bizarre Adventure"
+	description "JoJo no Kimyouna Bouken: Miraie no Isan"
 	year 1999
 	manufacturer "Capcom"
-	rom ( name jojoba_euro_nocd.29f400.u2 size 524288 crc 1ee2d679 )
+	rom ( name jojoba_japan_nocd.29f400.u2 size 524288 crc 4dab19f5 )
 	rom ( name 10 size 8388608 crc 6e2490f6 )
 	rom ( name 20 size 8388608 crc 1293892b )
 	rom ( name 30 size 8388608 crc d25c5005 )
@@ -6356,6 +6356,38 @@ game (
 	rom ( name ssf.q06 size 524288 crc 4e79c951 )
 	rom ( name ssf.q07 size 524288 crc cdd14313 )
 	rom ( name ssf.q08 size 524288 crc 6f5a088c )
+)
+
+game (
+	name ssf2t
+	cloneof ssf2
+	romof ssf2
+	description "Super Street Fighter II Turbo (super street fighter 2 X 940223 etc)"
+	year 1994
+	manufacturer "Capcom"
+	rom ( name sfxe.03c size 524288 crc 2fa1f396 )
+	rom ( name sfxe.04a size 524288 crc d0bc29c6 )
+	rom ( name sfxe.05 size 524288 crc 65222964 )
+	rom ( name sfxe.06a size 524288 crc 8fe9f531 )
+	rom ( name sfxe.07 size 524288 crc 8a7d0cb6 )
+	rom ( name sfxe.08 size 524288 crc 74c24062 )
+	rom ( name sfx.09 size 524288 crc 642fae3f )
+	rom ( name ssf.13m merge ssf.13m size 2097152 crc cf94d275 )
+	rom ( name ssf.15m merge ssf.15m size 2097152 crc 5eb703af )
+	rom ( name ssf.17m merge ssf.17m size 2097152 crc ffa60e0f )
+	rom ( name ssf.19m merge ssf.19m size 2097152 crc 34e825c5 )
+	rom ( name ssf.14m merge ssf.14m size 1048576 crc b7cc32e7 )
+	rom ( name ssf.16m merge ssf.16m size 1048576 crc 8376ad18 )
+	rom ( name ssf.18m merge ssf.18m size 1048576 crc f5b1b336 )
+	rom ( name ssf.20m merge ssf.20m size 1048576 crc 459d5c6b )
+	rom ( name sfx.21m size 1048576 crc e32854af )
+	rom ( name sfx.23m size 1048576 crc 760f2927 )
+	rom ( name sfx.25m size 1048576 crc 1ee90208 )
+	rom ( name sfx.27m size 1048576 crc f814400f )
+	rom ( name sfx.01 size 131072 crc b47b8835 )
+	rom ( name sfx.02 size 131072 crc 0022633f )
+	rom ( name sfx.11m size 2097152 crc 9bdbd476 )
+	rom ( name sfx.12m size 2097152 crc a05e3aab )
 )
 
 game (
