@@ -2,7 +2,7 @@ clrmamepro (
 	name "FightCade"
 	description "FightCade v042.2"
 	category "Emulator for MC68000/Z80 based arcade games"
-	version 0.2.96.74
+	version 042.2.004
 	author "lacanian"
 	forcezipping zip
 )
@@ -5850,26 +5850,6 @@ game (
 	rom ( name 41 size 8388608 crc fb346d74 )
 	rom ( name 50 size 8388608 crc 32f79449 )
 	rom ( name 51 size 8388608 crc 1102b8eb )
-)
-
-game (
-	name sfiii3n
-	cloneof sfiii3
-	romof sfiii3
-	description "Street Fighter III 3rd Strike: Fight for the Future (Japan 990512, NO CD)"
-	year 1999
-	manufacturer "Capcom"
-	rom ( name sfiii3_japan_nocd.29f400.u2 size 524288 crc 1edc6366 )
-	rom ( name 10 size 8388608 crc 77233d39 )
-	rom ( name 20 size 8388608 crc 5ca8faba )
-	rom ( name 30 size 8388608 crc b37cf960 )
-	rom ( name 31 size 8388608 crc 450ec982 )
-	rom ( name 40 size 8388608 crc 632c965f )
-	rom ( name 41 size 8388608 crc 7a4c5f33 )
-	rom ( name 50 size 8388608 crc 8562358e )
-	rom ( name 51 size 8388608 crc 7baf234b )
-	rom ( name 60 size 8388608 crc bc9487b7 )
-	rom ( name 61 size 8388608 crc b813a1b1 )
 )
 
 game (
